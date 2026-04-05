@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+
+# Env files
+.env
+.env.*
+
+# Kustomize build output
+build/
+dist/
+
+# Helm
+charts/*.tgz
+
+# Secrets
+secrets.yaml
+secret.yaml
+*.secret.yaml
