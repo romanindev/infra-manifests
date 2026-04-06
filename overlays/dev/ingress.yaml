@@ -4,14 +4,15 @@ metadata:
   name: demo-app
   namespace: todo-dev
 spec:
+  ingressClassName: traefik
   rules:
     - host: demo.local
       http:
         paths:
-          - path: /
+          - path: /api
             pathType: Prefix
             backend:
               service:
-                name: demo-app
+                name: todo-api
                 port:
-                  number: 80
+                  number: 3000
