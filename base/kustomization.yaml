@@ -3,6 +3,5 @@ kind: Kustomization
 
 resources:
   - namespace
-  - demo-app
   - mongo
   - todo-api
