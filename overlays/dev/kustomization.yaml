@@ -7,7 +7,9 @@ resources:
   - ingress.yaml
 
 images:
-  b48a28
+  - name: todo-api
+    newName: docker.io/romanindev/todo-api
+    newTag: bc90a43
 
   - name: todo-ui
     newName: docker.io/romanindev/todo-ui
