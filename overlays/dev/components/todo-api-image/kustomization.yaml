@@ -4,4 +4,4 @@ kind: Component
 images:
   - name: todo-api
     newName: docker.io/romanindev/todo-api
-    newTag: c539e71
+    newTag: b1781f7
