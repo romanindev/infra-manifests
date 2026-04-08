@@ -13,4 +13,4 @@ images:
 
   - name: todo-ui
     newName: docker.io/romanindev/todo-ui
-    newTag: dev-initial
+    newTag: 7fb9453
