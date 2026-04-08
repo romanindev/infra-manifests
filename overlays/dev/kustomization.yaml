@@ -9,7 +9,7 @@ resources:
 images:
   - name: todo-api
     newName: docker.io/romanindev/todo-api
-    newTag: dev-initial
+    newTag: bc90a43
 
   - name: todo-ui
     newName: docker.io/romanindev/todo-ui

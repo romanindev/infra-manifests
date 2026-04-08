@@ -16,7 +16,7 @@ spec:
       containers:
         - name: todo-api
           image: todo-api
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
           env:
