@@ -5,3 +5,4 @@ resources:
   - namespace
   - mongo
   - todo-api
+  - todo-ui
