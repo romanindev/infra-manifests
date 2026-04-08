@@ -20,3 +20,15 @@ Structure:
 - base/ → reusable resources
 - overlays/dev → environment-specific config
 - argocd/ → Argo CD applications
+
+## Architecture (context)
+
+This API is part of a multi-repo setup:
+
+- `todo-api` → this repository (backend)
+- `todo-ui` → frontend (planned)
+- `infra-manifests` → Kubernetes manifests (GitOps source of truth)
+
+Argo CD watches the `infra-manifests` repo and deploys this service into the cluster.
+
+---
