@@ -6,11 +6,6 @@ resources:
   - ../../base
   - ingress.yaml
 
-images:
-  - name: todo-api
-    newName: docker.io/romanindev/todo-api
-    newTag: bc90a43
-
-  - name: todo-ui
-    newName: docker.io/romanindev/todo-ui
-    newTag: 7fb9453
+components:
+  - ./components/todo-api-image
+  - ./components/todo-ui-image
