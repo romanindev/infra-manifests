@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: todo-ui
-          image: todo-ui:local
+          image: todo-ui
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
