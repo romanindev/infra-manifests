@@ -5,3 +5,12 @@ namespace: todo-dev
 resources:
   - ../../base
   - ingress.yaml
+
+images:
+  - name: todo-api
+    newName: docker.io/romanindev/todo-api
+    newTag: bc90a43
+
+  - name: todo-ui
+    newName: docker.io/romanindev/todo-ui
+    newTag: dev-initial
